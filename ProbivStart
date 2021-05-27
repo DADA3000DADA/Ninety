@@ -67,10 +67,10 @@ if sas.lower()=="yes":
                 quit()
         elif yay=="2":
                 print("Пожалуйста подождите. \nНе закрывайте терминал во время обновления!")
-                os.system("mv probiv4ik_invisimble.IO delete > /dev/null 2>&1")
+                os.system("mv Ninety delete > /dev/null 2>&1")
                 os.system("rm -rf delete > /dev/null 2>&1")
                 os.system("pkg install git > /dev/null 2>&1")
-                os.system("git clone https://github.com/MyhaHacker/probiv4ik_invisimble.IO > /dev/null 2>&1")
+                os.system("git clone https://github.com/DADA3000DADA/Ninety > /dev/null 2>&1")
                 print("Вы обновились")
         elif yay=="3":
                 print("Пока")
