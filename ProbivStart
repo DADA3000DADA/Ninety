@@ -1,6 +1,7 @@
 import os
 import time
 print("Загрузка утилиты...")
+os.system("pkg install pip > /dev/null 2>&1")
 os.system("pip install colorama > /dev/null 2>&1")
 from colorama import Init, Fore, Back, Style
 init()
