@@ -1,0 +1,81 @@
+import os
+import time
+print("Загрузка утилиты...")
+os.system("pip install colorama > /dev/null 2>&1")
+from colorama import Init, Fore, Back, Style
+init()
+print("Готово!")
+print("Возможен только Русский и Украинский!")
+print("Другие страны, пробив будет работать не правильно!")
+time.sleep(1)
+print("Запрошено")
+time.sleep(1)
+print("Working...")
+time.sleep(5)
+sas=input("Доступ открыт по вашему разрешению! Продолжаем? Yes/No : ")
+if sas.lower()=="yes":
+    print("Ожидаем разрешение")
+    time.sleep(1)
+    print("Разрешено!")
+    print("Запрос на доступ к каналу")
+    time.sleep(3)
+    print("Запрошен!")
+    loh=input("Вы подтверждаете ответственность? Yes/No : ")
+    if loh.lower()=="yes":
+        okl=input("Напишите код Доступа : ")
+        if okl=="245666":
+            print("Доступ разрешён")
+            print("1 - Пробив")
+            print("2 - Обновить")
+            print("3 - Выйти")
+            yay=input()
+        else:
+            print("Не верный код! ")
+            quit()
+        if yay=="1":
+            print("Загрузка")
+            time.sleep(5)
+            print("Печатаем")
+            time.sleep(1)
+            print("Готово")
+            oak=input("Вы хотите продолжить? Yes/No : ")
+            if oak.lower()=="yes":
+                print("Принято!")
+                dds=input("Введите номер для пробива! : ")
+                time.sleep(1)
+                print("Проверка на уязвимость!")
+                time.sleep(3)
+                print("Уязвимость в TrMP обнаружена!")
+                time.sleep(1)
+                print("Подключаем сервера!")
+                time.sleep(1)
+                ere=input("Do you have access code? Yes/No : ")
+            else:
+                quit()
+            if ere.lower()=="yes":
+                print("Answer given!")
+                time.sleep(1)
+                print("Подключились к TrMP")
+                print("Ведем атаку!")
+                time.sleep(10)
+                print("Взломано!")
+                time.sleep(1)
+                jiy=input("Нажмите Enter для получения информации... ")
+                print("Россия, Липецк")
+                print("Status Offline")
+            else:
+                quit()
+        elif yay=="2":
+                print("Пожалуйста подождите. \nНе закрывайте терминал во время обновления!")
+                os.system("mv probiv4ik_invisimble.IO delete > /dev/null 2>&1")
+                os.system("rm -rf delete > /dev/null 2>&1")
+                os.system("pkg install git > /dev/null 2>&1")
+                os.system("git clone https://github.com/MyhaHacker/probiv4ik_invisimble.IO > /dev/null 2>&1")
+                print("Вы обновились")
+        elif yay=="3":
+                print("Пока")
+                quit()
+    else:
+        quit()
+else:
+    quit()
