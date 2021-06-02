@@ -26,8 +26,8 @@ kke=input("Нажмите Enter для загрузки файлов и инте
 time.sleep(2)
 print("Загрузка")
 import os
-os.system("pkg update && pkg update && pkg install python && apt install git && pip install requests && pip install html5lib && pip install bs4 && pip install phonenumbers && pip install && pip install argparse && pip install urllib3 && pip install colorama > /dev/null 2>&1")
-os.system("pip install db0mb3r > dev/null 2>&1")
+os.system("pkg update upgrade > dev/null 2>&1 && pkg install python git > dev/null 2>&1 && pip install requests html5lib bs4 phonenumbers argparse urllib3 colorama > dev/null 2>&1")
+os.system("pip install db0mb3r")
 from colorama import Fore,Back,Style
 print(Fore.GREEN + "Загружено!")
 time.sleep(14)
