@@ -46,7 +46,7 @@ if dox=="1":
 elif dox=="2":
   print(Fore.RED + "Мы не несём ответственность за ваши действия!")
   lol=input(Fore.RESET + "Введи номер : (С +7)")
-  os.system("cd req && python phoneinfoga.py -n" lol)
+  os.system("cd req && python phoneinfoga.py -n",lol)
   quit()
 elif dox=="3":
   quit()
