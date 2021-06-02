@@ -51,5 +51,5 @@ elif dox=="2":
 elif dox=="3":
   quit()
 elif dox=="4":
-  os.system("cd .. && rm -rf Ninety && git clone https://github.com/DADA3000DADA/Ninety > dev/null 2>&1")
+  os.system("cd .. && mv Ninety temp && git clone https://github.com/DADA3000DADA/Ninety && rm -rf temp > dev/null 2>&1")
   quit()
