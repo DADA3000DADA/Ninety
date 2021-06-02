@@ -46,7 +46,7 @@ if dox=="1":
 elif dox=="2":
   print(Fore.RED + "Мы не несём ответственность за ваши действия!")
   os.system("cd req")
-  print("Введи: python check -n ТУТНОМЕР(С +7)
+  print("Введи: python check -n ТУТНОМЕР(С +7)")
   quit()
 elif dox=="3":
   quit()
