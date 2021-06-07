@@ -13,6 +13,7 @@ print("1) Спаммер")
 print("2) Пробив по номеру")
 print("3) Выход")
 print("4) Обновить")
+print("5) Обновить и выйти")
 time.sleep(1)
 dox=input("Выберите пункт : ")
 if dox=="1":
@@ -28,4 +29,7 @@ elif dox=="3":
   quit()
 elif dox=="4":
   os.system("cd .. && mv Ninety temp && git clone https://github.com/DADA3000DADA/Ninety > /dev/null 2>&1 && rm -rf temp && cd Ninety && python3 AIOTools.py")
+  quit()
+elif dox=="5":
+  os.system("cd .. && mv Ninety temp && git clone https://github.com/DADA3000DADA/Ninety > /dev/null 2>&1 && rm -rf temp")
   quit()
