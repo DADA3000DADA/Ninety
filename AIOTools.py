@@ -1,5 +1,5 @@
 import time
-print("Загрузка")
+print("\nЗагрузка")
 import os
 os.system("pkg update > /dev/null 2>&1 && pkg upgrade > /dev/null 2>&1 && pkg install python git > /dev/null 2>&1 && pip install requests html5lib bs4 phonenumbers argparse urllib3 > /dev/null 2>&1")
 os.system("pip install db0mb3r > /dev/null 2>&1")
