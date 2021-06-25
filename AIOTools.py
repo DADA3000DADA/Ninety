@@ -27,14 +27,14 @@ elif dox == "2":
     print(Fore.RED + "Мы не несём ответственность за ваши действия!")
     Fore.RESET
     os.chdir("/data/data/com.termux/files/home/Ninety/req")
-    l=os.system(str("python check -n ")) + str( input("Введи номер (С +7): ") )
+    l="python check -n " + str(input("Введи номер (С +7): "))
     os.system(l)
     quit()
 elif dox == "3":
     quit()
 elif dox == "4":
     os.chdir("/data/data/com.termux/files/home")
-    os.system("mv Ninety temp && git clone https://github.com/DADA3000DADA/Ninety > /dev/null 2>&1 && rm -rf temp")
+    os.system("mv Ninety temp && git clone https://github.com/DADA3000DADA/Ninety && rm -rf temp")
     os.chdir("/data/data/com.termux/files/home/Ninety")
     os.system("python AIOTools.py")
     quit()
