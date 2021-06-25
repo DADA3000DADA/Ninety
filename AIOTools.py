@@ -36,5 +36,5 @@ elif dox == "4":
     os.chdir("/data/data/com.termux/files/home")
     os.system("mv Ninety temp && git clone https://github.com/DADA3000DADA/Ninety > /dev/null 2>&1 && rm -rf temp")
     os.chdir("/data/data/com.termux/files/home/Ninety")
-    os.system("python AIOTools.py
+    os.system("python AIOTools.py")
     quit()
