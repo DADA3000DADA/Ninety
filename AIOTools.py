@@ -5,7 +5,6 @@ print()
 print("Загрузка")
 print("Первая загрузка может длиться больше 5 минут! Время загрузки зависит от вашей скорости интернета"
 import os
-
 os.system("pkg update && pkg upgrade > dev/null 2>&1 && pkg install python git > dev/null 2>&1 && pip install requests html5lib bs4 phonenumbers argparse urllib3 colorama > dev/null 2>&1")
 os.system("n")
 os.system("pip install db0mb3r")
