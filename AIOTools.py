@@ -26,7 +26,7 @@ if dox == "1":
 elif dox == "2":
     print(Fore.RED + "Мы не несём ответственность за ваши действия!")
     os.system("cd req")
-    l=os.system("python check -n ") + input("Введи номер (С +7): ")
+    l=os.system("python check.py -n ") + str(input("Введи номер (С +7): "))
     os.system(l)
     quit()
 elif dox == "3":
